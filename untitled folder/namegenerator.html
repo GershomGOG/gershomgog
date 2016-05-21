@@ -1,0 +1,40 @@
+
+<p>Click the button to pick a name.</p>
+
+
+
+<a class="poi" onclick="makeName()">Make Name</a>
+
+
+<p id="demo"></p>
+
+
+<script type="text/javascript">
+
+function makeName()
+
+{
+
+var x;
+var y;
+
+var firstN=["Vita","Verena","Valentine","Tulip","Toril","Tansy","Ahmet","Amias","Balthazar","Barnabas","Birch","Malia","Ophelie","Alexander","Gina","Charlotte","Evac","Alina","Emma","Julia","Kirsten","Luciana","Marina","Sabine","Setrida","Sara","Yulia","Vera","Yuri","Blakely","Vera","Sonja"];
+
+var lastN=["Moore","Jackson","Thompson","Brown","Williams","Hall","Song","Anderson","Lopez","Robinson","Wright","Mason","Charig","Kapila","Lechat","Brinker","Guelich","Tokar","Dempsey","Hering","Day","Chantlos","Corday","Marat","Kaili","Kabaeva","Galojan","Christa","Kiernan","Bonk","Vittbrand","Leon","Schuster","Brambillam","Orly","Dhalla","Uitslag","Geagea","Tymoshenko","Lischka","Fuyikawa","Dagonet","Gobbo","Bottom","Graham","Graf","Menchik"];
+
+
+var x =firstN[Math.floor(Math.random() * firstN.length)];
+var y =lastN[Math.floor(Math.random() * lastN.length)];
+
+
+var name=x + " " + y
+
+
+
+document.getElementById("demo").innerHTML=name;
+
+
+
+}
+
+</script>
