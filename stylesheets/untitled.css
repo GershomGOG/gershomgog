@@ -21,6 +21,9 @@ h1 {
   font-size:8vw;
 }
 
+h2 {
+  font-size:6vw;
+}
 
 a {
   color:#000;
@@ -28,5 +31,5 @@ a {
 }
 
 a:hover {
-  color:#b34d4d;
+  color:#0081CC;
 }
