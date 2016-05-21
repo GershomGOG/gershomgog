@@ -31,15 +31,15 @@ a:hover {
   color:#b34d4d;
 }
 
-#name {
+#me {
    width:100%;
     overflow: hidden;
 }
-#first {
+#mefirst {
    width:50%;
    float:left;
 }
-#last {
+#melast {
    width:50%;
    float:right;
 }
