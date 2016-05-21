@@ -6,22 +6,19 @@ body {
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p, ul, ol, table, pre, dl {
   color:#000;
-  margin:0 0 20px;
   font-family: 'Cardo', serif;
 }
 
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
-}
 
 h1, h2, h3 {
   line-height:1.1;
 }
 
+
 h1 {
-  font-size:28px;
+  font-size:68px;
 }
 
 
@@ -34,10 +31,25 @@ a:hover {
   color:#b34d4d;
 }
 
-div.center {
-  margin: auto;
-  width: 60%;
-  padding: 10px;
-  float: center;
-
+#name {
+   width:100%;
+    overflow: hidden;
+}
+#first {
+   width:50%;
+   float:left;
+}
+#last {
+   width:50%;
+   float:right;
+}
+@media only screen and (max-width: 767px)
+{
+    #first, #last
+    {
+        display: block;
+        float: none;
+        width: 100%;
+        padding: 20px 0;
+    }
 }
