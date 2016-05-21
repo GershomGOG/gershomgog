@@ -33,3 +33,14 @@ a {
 a:hover {
   color:#0081CC;
 }
+
+.contact a h2.email span{
+  position: relative;
+  content: 'Contact Me'
+}
+.contact:hover a h2.email span{
+  display: none;
+}
+.contact:hover a h2.email:after{
+  content: 'gershom@gannonogara.com';
+}
