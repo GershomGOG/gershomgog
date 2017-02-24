@@ -42,6 +42,6 @@ a:hover {
   display: none;
 }
 .contact:hover a h2.email:after{
-  content: 'gershom@gannonogara.com';
+  content: 'gershom[at]gannonogara[dot]com';
   color:#0081CC;
 }
