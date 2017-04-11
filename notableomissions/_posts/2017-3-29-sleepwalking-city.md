@@ -1,10 +1,9 @@
-2017-3-29-sleepwalking city
 ---
 layout: post
 title: sleepwalking city
 ---
 
-%20page.title%20
+{{ page.title }}
 ================
 
 <p class="meta">29 Mar 2017 - New York</p>
